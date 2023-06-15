@@ -5,12 +5,29 @@
 
 .main-part {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: beige;
     align-items: center;
 }
 
-.sub-section {
-    
-    
+.sub-section h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.sub-section p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.sub-section button {
+    padding: 10px 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
 }
