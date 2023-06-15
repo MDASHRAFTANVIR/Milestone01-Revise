@@ -32,8 +32,33 @@
     border-radius: 5px;
 }
 
-
-main {
+.first-section {
+    text-align: center;
+    margin-top: 40px;
+    background-color:cornflowerblue;
+    position: absolute;
     width: 80%;
-    margin: 0 auto;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-sub {
+    position: relative;
+    padding: 30px;
+    width: 50%;
+}
+
+.first-sub h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.first-sub p {
+    text-align: left;
+    margin-bottom: 15px;
+    width: 70%;
+    font-size: 18px;
+    
 }
