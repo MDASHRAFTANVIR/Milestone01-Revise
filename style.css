@@ -61,3 +61,41 @@
 
 }
 
+.second {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: cadetblue;
+    margin-bottom: 30px;
+    
+}
+.first-part {
+   padding: 30px;
+}
+.second h2 {
+    margin-bottom: 20px;
+}
+
+.first-part p {
+    height: 55px;
+    width: 60%;
+    margin-left: 20%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+.second-part {
+    padding: 30px;
+}
+
+.second-part p {
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
