@@ -103,6 +103,8 @@
 .box-transform {
     display: flex;
     gap: 30px;
+    padding: 30px;
+    border: 3px solid crimson;
     
 }
 
@@ -111,6 +113,7 @@
     width: 200px;
     background-color: brown;
     margin-bottom: 20px;
+    
 }
 
 .box-1 {
