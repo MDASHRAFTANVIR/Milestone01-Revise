@@ -99,3 +99,29 @@
     text-overflow: ellipsis;
     
 }
+
+.box-transform {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.boxes {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    transform: translate(20px, 20px)
+}
+
+.box-2 {
+    transform: scale(0.50);
+}
+
+.box-3 {
+    transform: rotate(45deg) scale(0.5) translateX(30px);
+    background-color: rgb(25, 56, 112);
+}
