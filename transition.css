@@ -4,11 +4,11 @@
     width: 80%;
     margin-left: 10%;
     padding: 30px;
-    position: absolute;
+    margin-bottom: 30px;
 
 }
 .cricket-match {
-    border: 1px solid;
+    
     position: relative;
 }
 
@@ -39,4 +39,63 @@
 }
 .cricket-match:hover .ball {
     transform: translateX(300px) translateY(-300px);
+}
+
+
+.keyframe {
+    width: 80%;
+    margin-left: 10%;
+    background-color: lightsteelblue;
+    margin-top: 30px;
+    padding: 30px;
+    
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(125, 69, 180);
+    animation-name: sliding;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes sliding {
+    0% {
+        background-color: red;
+        left: 0;
+
+    }
+
+    25% {
+        background-color: blue;
+        left: 300px;
+    }
+
+    50% {
+        background-color: yellow;
+        top: 300px;
+        left: 300px;
+    }
+    75% {
+        left: 0;
+        top: 300px;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
