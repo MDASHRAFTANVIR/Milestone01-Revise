@@ -9,9 +9,15 @@
 
 .cricket-match {
     padding: 20px; 
+    align-items: center;
 }
 
 .cricket-bat {
     width: 20%;
     float: left;
+}
+
+.cricket-ball {
+    float: right;
+
 }
