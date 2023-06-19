@@ -1,0 +1,17 @@
+.transition-part{
+    background-color: burlywood;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 30px;
+
+}
+
+.cricket-match {
+    padding: 20px; 
+}
+
+.cricket-bat {
+    width: 20%;
+    float: left;
+}
